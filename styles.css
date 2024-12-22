@@ -1,0 +1,71 @@
+body {
+    background-color: #f9f9f9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.note {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fcf3cf;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    overflow: hidden;
+}
+
+.note-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.note-header.riccardo {
+    background-color: #FF7F50;
+}
+
+.note-header.linda {
+    background-color: #9370DB;
+}
+
+.wishlist {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    background: repeating-linear-gradient(
+            #fcf3cf,
+            #fcf3cf 40px,
+            #e9e0be 40px,
+            #e9e0be 41px
+    );
+    line-height: 41px;
+}
+
+.wishlist li {
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #333;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    transform: translateY(-7px);
+}
+
+.wishlist li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.wishlist li a:hover {
+    text-decoration: underline;
+}
